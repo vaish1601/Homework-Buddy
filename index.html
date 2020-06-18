@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Homework Buddy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#"><img src="img/logo.png" height="45" width="65"></a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html" style="font-family: 'Lobster', cursive;">Homework Buddy</a></li>
+                   
+                </ul>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(255, 217, 0);">
+                     Question and Answers
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <button class="dropdown-item" type="button">How to solve algebra?</button>
+                      <button class="dropdown-item" type="button">What is sterrric hinderance?</button>
+                      <button class="dropdown-item" type="button">Difference betweend gerunds and participles?</button>
+                      <button class="dropdown-item" type="button">What are the different classes of vertebrates?</button>
+                    </div>
+                  </div>
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#contactmodal">
+                        <span class="contact"> Contact Us</span>
+                    </a>
+                </span>
+               
+                <span class="navbar-text">
+                    <a data-toggle="modal" data-target="#loginmodal">
+                        <span class="fa fa-sign-in"> Login</span>
+                    </a>
+                </span>
+            </div>
+           
+        </div>
+
+    </nav>
+    <div id="loginmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+    
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal"style="background-color: #e1361e;">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1" style="background-color: rgb(255, 217, 0) ;">Sign in</button>        
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="col col-sm col-md">
+        <div class="media">
+            <div class="col col-sm-12 col-md">
+        <img src="img/homework.gif" alt="homework gif">
+    </div>
+    
+   
+        <div class="media-body">
+            <div class="col col-sm-12 col-md">
+            <h1 class="heading"style="margin-top:75%;font-size:300%;line-height: 70px;font-family: 'Lobster', cursive;">Need help with your homework? Don't Worry, We are here to help you !</h1>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+    
+<div class="input-group" style="width: 40%;margin-left: 28%;">
+    <input type="text" class="form-control" placeholder=" Just type the question and get the solution">
+    <div class="input-group-append">
+      <button class="btn btn-secondary" type="button"style="background-color:rgb(255, 217, 0);border:rgb(255, 217, 0);">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+  
+  <p class="mt-4 text-center"><a href="#">Chat with the expert to clear your doubts (24x7)</a></p>
+  
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+</body>
